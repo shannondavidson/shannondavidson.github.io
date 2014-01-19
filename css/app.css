@@ -1,0 +1,124 @@
+.listing{
+	margin-bottom: 25px;
+}
+
+.listing-item{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.img-small {
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.smallotron {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #EEEEEE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.smallotron-invert {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+
+.quote {
+	text-align: center;
+}
+
+.github {
+	position: fixed; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+	display: none;
+	float: right;
+}
+
+@media (min-width: 1440px) {
+
+	.github-visible {
+		display: block;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.contact-icon {
+		padding-left: 10px;
+		margin-top: -4px;
+	}
+
+	.wide-text-right {
+		text-align: right;
+	}
+
+	.wide-hide {
+		display: none;
+	}
+
+	.wide-personal-info {
+		padding-left: 15px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.contact-icon {
+		padding-left: 10px;
+		margin-top: -4px;
+	}
+
+	.wide-personal-info {
+		padding-left: 30px;
+	}
+
+	.wide-text-right {
+		text-align: right;
+	}
+
+	.wide-hide {
+		display: none;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+	.narrow-hide {
+		display: none;
+	}
+
+	.contact-icon {
+		padding-right: 10px;
+		margin-top: -4px;
+	}
+
+	.wide-quote {
+		text-align: left;
+		padding-left: 15px;
+	}
+
+}
+
+@media print {
+
+	@viewport {
+		width: 1200px;
+	}
+
+	.print-hide {
+		display: none;
+	}
+
+}
