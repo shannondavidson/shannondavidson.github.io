@@ -1,10 +1,23 @@
+.summary {
+	text-align: justify;
+}
+
 .listing{
 	margin-bottom: 25px;
 }
 
+.listing-header {
+	border-bottom: 1px solid #d5d5d5;
+	overflow: hidden;
+}
+
 .listing-item{
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-top: 3px;
+	clear: both;
+}
+
+.listing-item-title
+{
 }
 
 .img-small {
@@ -14,16 +27,12 @@
 }
 
 .smallotron {
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 	background-color: #EEEEEE;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .smallotron-invert {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 	padding-right: 15px;
@@ -41,6 +50,10 @@
 	border: 0;
 	display: none;
 	float: right;
+}
+
+.clear-right {
+	clear: right;
 }
 
 @media (min-width: 1440px) {
