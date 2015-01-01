@@ -10,7 +10,10 @@ h5 {
 	margin-bottom: 25px;
 }
 
-
+.listing-company-summary
+{
+    max-width: 85%;
+}
 
 .listing-daterange
 {
@@ -62,6 +65,8 @@ h5 {
 	clear: right;
 }
 
+
+
 @media (min-width: 1440px) {
 
 	.github-visible {
@@ -85,25 +90,22 @@ h5 {
 		display: none;
 	}
 
-	.wide-personal-info {
+	.personal-info {
 		padding-left: 15px;
 	}
 
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 608px) and (max-width: 1200px) {
 
 	.contact-icon {
 		padding-left: 10px;
 		margin-top: -4px;
 	}
 
-	.wide-personal-info {
-		padding-left: 30px;
-	}
-
 	.wide-text-right {
 		text-align: right;
+        padding-right: 15px;
 	}
 
 	.wide-hide {
@@ -112,7 +114,23 @@ h5 {
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 608px) {
+
+    .personal-info {
+        float: none !important;
+        clear: left;
+        padding: 10px 15px;
+    }
+
+    .personal-info address {
+        margin-bottom: 0;
+    }
+
+    .wide-text-right {
+        float: none !important;
+        clear: right;
+        padding: 3px 15px;
+    }
 
 	.narrow-hide {
 		display: none;
