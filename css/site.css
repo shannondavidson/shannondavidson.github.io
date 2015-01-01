@@ -1,116 +1,110 @@
 h5 {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .summary {
-	text-align: justify;
+    text-align: justify;
 }
 
-.listing{
-	margin-bottom: 25px;
+.listing {
+    margin-bottom: 25px;
 }
 
-.listing-company-summary
-{
+.listing-company-summary {
     max-width: 85%;
 }
 
-.listing-daterange
-{
-    float: right!important;
+.listing-daterange {
+    float: right !important;
 }
 
-.listing-item{
-	padding-top: 3px;
-	clear: both;
+.listing-item {
+    padding-top: 3px;
+    clear: both;
 }
 
-.listing-item-title
-{
+.listing-item-title {
 }
 
 .img-small {
-	height: 100px;
-	width: 100px;
-	border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .smallotron {
-	background-color: #EEEEEE;
+    background-color: #EEEEEE;
     padding: 10px 0px 10px 15px;
 }
 
 .smallotron-invert {
-	border-bottom-right-radius: 0px;
-	border-bottom-left-radius: 0px;
-	padding-right: 15px;
-	margin-top: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-right: 15px;
+    margin-top: 15px;
 }
 
 .quote {
-	text-align: center;
+    text-align: center;
 }
 
 .github {
-	position: fixed; 
-	top: 0; 
-	right: 0; 
-	border: 0;
-	display: none;
-	float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    display: none;
+    float: right;
 }
 
 .clear-right {
-	clear: right;
+    clear: right;
 }
 
 
 
 @media (min-width: 1440px) {
 
-	.github-visible {
-		display: block;
-	}
-
+    .github-visible {
+        display: block;
+    }
 }
 
 @media (min-width: 1200px) {
 
-	.contact-icon {
-		padding-left: 10px;
-		margin-top: -4px;
-	}
+    .contact-icon {
+        padding-left: 10px;
+        margin-top: -4px;
+    }
 
-	.wide-text-right {
-		text-align: right;
-	}
+    .wide-text-right {
+        text-align: right;
+    }
 
-	.wide-hide {
-		display: none;
-	}
-
+    .wide-hide {
+        display: none;
+    }
 }
 
 @media (min-width: 608px) and (max-width: 1200px) {
 
     .personal-info {
-		padding-left: 15px;
-	}
+        padding-left: 15px;
+    }
 
-	.contact-icon {
-		padding-left: 10px;
-		margin-top: -4px;
-	}
+    .contact-icon {
+        padding-left: 10px;
+        margin-top: -4px;
+    }
 
-	.wide-text-right {
-		text-align: right;
+    .wide-text-right {
+        text-align: right;
         padding-right: 15px;
-	}
+    }
 
-	.wide-hide {
-		display: none;
-	}
-
+    .wide-hide {
+        display: none;
+    }
 }
 
 @media (max-width: 608px) {
@@ -121,9 +115,9 @@ h5 {
         padding: 10px 15px;
     }
 
-    .personal-info address {
-        margin-bottom: 0;
-    }
+        .personal-info address {
+            margin-bottom: 0;
+        }
 
     .wide-text-right {
         float: none !important;
@@ -131,34 +125,35 @@ h5 {
         padding: 3px 15px;
     }
 
-	.narrow-hide {
-		display: none;
-	}
+    .narrow-hide {
+        display: none;
+    }
 
-	.contact-icon {
-		padding-right: 10px;
-		margin-top: -4px;
-	}
+    .contact-icon {
+        padding-right: 10px;
+        margin-top: -4px;
+    }
 
-	.wide-quote {
-		text-align: left;
-		padding-left: 15px;
-	}
-
+    .wide-quote {
+        text-align: left;
+        padding-left: 15px;
+    }
 }
 
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 480px)
-{
+@media only screen and (min-width : 320px) and (max-width : 480px) {
     .personal-info {
         float: none !important;
         clear: left;
         padding: 10px 0;
     }
 
-    .listing-daterange
-    {
+    .wide-text-right {
+        float: none !important;
+        clear: right;
+        padding: 3px 0;
+    }
+
+    .listing-daterange {
         clear: both;
         float: none !important;
     }
@@ -166,12 +161,11 @@ and (max-width : 480px)
 
 @media print {
 
-	@viewport {
-		width: 1200px;
-	}
+    @viewport {
+        width: 1200px;
+    }
 
-	.print-hide {
-		display: none;
-	}
-
+    .print-hide {
+        display: none;
+    }
 }
