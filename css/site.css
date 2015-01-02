@@ -4,6 +4,7 @@ h5 {
 
 .summary {
     text-align: justify;
+    clear: both;
 }
 
 .listing {
@@ -24,7 +25,21 @@ h5 {
 }
 
 .listing-item-title {
+    clear: both;
 }
+
+    .listing-item-title div {
+        float: left;
+    }
+
+        .listing-item-title div:first-child {
+            font-weight: bold;
+        }
+
+        .listing-item-title div + div {
+            padding-left: 3px;
+        }
+
 
 .img-small {
     height: 100px;
@@ -156,6 +171,18 @@ h5 {
     .listing-daterange {
         clear: both;
         float: none !important;
+    }
+
+    .listing-item-title div {
+        float: none !important;
+    }
+
+    .listing-header div:first-child {
+        padding-top: 3px;
+    }
+
+    .listing-item-title div + div {
+        padding-left: 0;
     }
 }
 
