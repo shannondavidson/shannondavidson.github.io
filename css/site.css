@@ -87,6 +87,10 @@ h5 {
 
 @media (min-width: 1200px) {
 
+    .personal-info {
+        padding-left: 15px;
+    }
+
     .contact-icon {
         padding-left: 10px;
         margin-top: -4px;
@@ -127,7 +131,7 @@ h5 {
     .personal-info {
         float: none !important;
         clear: left;
-        padding: 10px 15px;
+        padding: 0;
     }
 
         .personal-info address {
@@ -137,7 +141,7 @@ h5 {
     .wide-text-right {
         float: none !important;
         clear: right;
-        padding: 3px 15px;
+        padding: 0;
     }
 
     .narrow-hide {
@@ -156,17 +160,6 @@ h5 {
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    .personal-info {
-        float: none !important;
-        clear: left;
-        padding: 10px 0;
-    }
-
-    .wide-text-right {
-        float: none !important;
-        clear: right;
-        padding: 3px 0;
-    }
 
     .listing-daterange {
         clear: both;
